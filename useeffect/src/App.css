@@ -1,0 +1,15 @@
+.board {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  display: flex;
+  height: 130px;
+  width: 130px;
+  font-size: 3rem;
+  border: 1px black solid;
+  align-items: center;
+  justify-content: center;
+}
